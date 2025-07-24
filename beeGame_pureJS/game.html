@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bee Game</title>
+    <link rel="stylesheet" href="./styles/game.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="button-col">
+          <button onclick="moveBee(0, -1)">L1</button>
+          <button onclick="moveBee(-1, 0)">L2</button>
+          <button onclick="moveBee(1, 0)">L3</button>
+          <button onclick="moveBee(-1, 0)">L4</button>
+        </div>
+        <div id="grid"></div>
+        <div class="button-col">
+          <button onclick="moveBee(0, -1)">R1</button>
+          <button onclick="moveBee(-1, 0)">R2</button>
+          <button onclick="moveBee(-1, 0)">R3</button>
+          <button onclick="moveBee(-1, 0)">R4</button>
+        </div>
+      </div>
+
+      <div id="errormsg"></div>
+    </div>
+
+    <!-- scripts go here -->
+    <script src="./js/game.js"></script>
+  </body>
+</html>

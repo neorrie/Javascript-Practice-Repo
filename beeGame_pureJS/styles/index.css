@@ -1,0 +1,30 @@
+:root {
+  background-color: #27272a;
+  color: white;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-top: 10px;
+}

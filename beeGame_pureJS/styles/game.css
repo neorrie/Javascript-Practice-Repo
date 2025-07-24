@@ -1,0 +1,54 @@
+:root {
+  background-color: #27272a;
+  color: white;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+.button-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#grid {
+  display: grid;
+}
+
+.cell {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #27272a;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+#errormsg {
+  position: relative;
+  top: 100px;
+}
